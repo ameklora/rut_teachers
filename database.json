@@ -13,9 +13,12 @@
         "Предмет"
       ],
       "overall_rating": {
-        "average": 5,
-        "count": 1,
+        "average": 4.25,
+        "count": 5,
         "total": [
+          5,
+          3,
+          4,
           5
         ]
       },
@@ -27,10 +30,11 @@
           "comment": "абвгд",
           "date": "08.09.2025",
           "review_likes": 1,
-          "review_dislikes": 0,
+          "review_dislikes": 1,
           "users_voted": [],
           "user_votes": {
-            "618475599": "like"
+            "618475599": "dislike",
+            "7170420373": "like"
           }
         },
         {
@@ -40,12 +44,214 @@
           "comment": "вввввд",
           "date": "08.09.2025",
           "review_likes": 0,
+          "review_dislikes": 2,
+          "users_voted": [],
+          "user_votes": {
+            "618475599": "dislike",
+            "7170420373": "dislike"
+          }
+        },
+        {
+          "review_id": 4,
+          "user_id": "618475599",
+          "rating": 3,
+          "comment": "бвыаыа",
+          "date": "13.09.2025",
+          "review_likes": 2,
           "review_dislikes": 0,
-          "users_voted": []
+          "user_votes": {
+            "618475599": "like",
+            "7170420373": "like"
+          }
+        },
+        {
+          "review_id": 5,
+          "user_id": "618475599",
+          "rating": 4,
+          "comment": "вылы",
+          "date": "13.09.2025",
+          "review_likes": 1,
+          "review_dislikes": 1,
+          "user_votes": {
+            "618475599": "like",
+            "7170420373": "dislike"
+          }
+        },
+        {
+          "review_id": 6,
+          "user_id": "618475599",
+          "rating": 5,
+          "comment": "д",
+          "date": "13.09.2025",
+          "review_likes": 0,
+          "review_dislikes": 0,
+          "user_votes": {}
         }
       ]
+    },
+    {
+      "id": 2,
+      "surname": "Александрова",
+      "name": "Людмила",
+      "middlename": "Викторовна",
+      "institute": "ИУЦТ",
+      "department": "ЦТУТП",
+      "title": "Старший преподаватель",
+      "subjects": [
+        "Дискретная математика",
+        "Программирование"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "surname": "Арутюнян",
+      "name": "Елена",
+      "middlename": "Бабкеновна",
+      "institute": "ИУЦТ",
+      "department": "ЦТУТП",
+      "title": "Доцент, к.н.",
+      "subjects": [
+        "Алгебра и аналитическая геометрия",
+        "Теория вероятностей и математическая статистика",
+        "Элементы алгебры и теории чисел"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "surname": "Быков",
+      "name": "Никита",
+      "middlename": "Валерьевич",
+      "institute": "",
+      "department": "Кафедра «Физика»",
+      "title": "Зав. кафедрой, доцент, д.н.",
+      "subjects": [
+        "Физика",
+        "Моделирование"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "surname": "Мухлынкина",
+      "name": "Юлия",
+      "middlename": "Владимировна",
+      "institute": "",
+      "department": "Кафедра «Философия»",
+      "title": "Доцент, к.н.",
+      "subjects": [
+        "Философия"
+      ],
+      "overall_rating": {
+        "average": 3.25,
+        "count": 4,
+        "total": [
+          2,
+          1,
+          5,
+          5
+        ]
+      },
+      "reviews": [
+        {
+          "review_id": 7,
+          "user_id": "618475599",
+          "rating": 2,
+          "comment": "олдо",
+          "date": "13.09.2025",
+          "review_likes": 1,
+          "review_dislikes": 0,
+          "user_votes": {
+            "618475599": "like"
+          }
+        },
+        {
+          "review_id": 8,
+          "user_id": "618475599",
+          "rating": 1,
+          "comment": "ыввыфы",
+          "date": "13.09.2025",
+          "review_likes": 0,
+          "review_dislikes": 1,
+          "user_votes": {
+            "618475599": "dislike"
+          }
+        },
+        {
+          "review_id": 9,
+          "user_id": "618475599",
+          "rating": 5,
+          "comment": "",
+          "date": "13.09.2025",
+          "review_likes": 0,
+          "review_dislikes": 0,
+          "user_votes": {}
+        },
+        {
+          "review_id": 10,
+          "user_id": "618475599",
+          "rating": 5,
+          "comment": "",
+          "date": "13.09.2025",
+          "review_likes": 0,
+          "review_dislikes": 0,
+          "user_votes": {}
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "surname": "Базаев",
+      "name": "Алексей",
+      "middlename": "Николаевич",
+      "institute": "",
+      "department": "Кафедра «История»",
+      "title": "Ассистент",
+      "subjects": [
+        "История России"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 7,
+      "surname": "Марина",
+      "name": "Литвинова",
+      "middlename": "Васильевна",
+      "institute": "",
+      "department": "Академия базовой подготовки",
+      "title": "Старший преподаватель",
+      "subjects": [
+        "ОРГ"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
     }
   ],
-  "next_teacher_id": 2,
-  "next_review_id": 4
+  "next_teacher_id": 8,
+  "next_review_id": 11
 }
