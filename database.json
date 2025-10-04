@@ -159,11 +159,12 @@
         "Философия"
       ],
       "overall_rating": {
-        "average": 3.25,
-        "count": 4,
+        "average": 3.6,
+        "count": 5,
         "total": [
           2,
           1,
+          5,
           5,
           5
         ]
@@ -212,6 +213,16 @@
           "review_likes": 0,
           "review_dislikes": 0,
           "user_votes": {}
+        },
+        {
+          "review_id": 11,
+          "user_id": "618475599",
+          "rating": 5,
+          "comment": "",
+          "date": "13.09.2025",
+          "review_likes": 0,
+          "review_dislikes": 0,
+          "user_votes": {}
         }
       ]
     },
@@ -253,5 +264,5 @@
     }
   ],
   "next_teacher_id": 8,
-  "next_review_id": 11
+  "next_review_id": 12
 }
