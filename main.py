@@ -347,7 +347,7 @@ async def show_top_teachers(callback: types.CallbackQuery, state: FSMContext):
         await callback.answer("Пока нет преподавателей с оценками")
         return
 
-    text = "🏆 ТОП-5 преподавателей:\n\n"
+    text = "🏆 *ТОП-5 преподавателей:*\n\n"
     keyboard = InlineKeyboardBuilder()
     for i, teacher in enumerate(top_teachers, 1):
         teacher_name = f"{teacher['surname']} {teacher['name']} {teacher['middlename']}"
@@ -363,7 +363,7 @@ async def show_top_teachers(callback: types.CallbackQuery, state: FSMContext):
     keyboard.adjust(2, 2)
 
     # Редактируем текущее сообщение
-    await callback.message.edit_text(text, reply_markup=keyboard.as_markup())
+    await callback.message.edit_text(text, reply_markup=keyboard.as_markup(), parse_mode="Markdown")
     await callback.answer()
 
 
@@ -379,7 +379,7 @@ async def show_teachers_list(callback: types.CallbackQuery, state: FSMContext):
         await callback.answer("В базе пока нет преподавателей")
         return
 
-    text = "📋 Список преподавателей:\n\n"
+    text = "📋 *Список преподавателей:*\n\n"
     for i, teacher in enumerate(teachers, 1):
         text += (
             f"{i}. {teacher['surname']} {teacher['name']} {teacher['middlename']}\n"
@@ -401,7 +401,7 @@ async def show_teachers_list(callback: types.CallbackQuery, state: FSMContext):
     await state.update_data(current_page=1, total_pages=total_pages)
 
     # Редактируем текущее сообщение
-    await callback.message.edit_text(text, reply_markup=keyboard.as_markup())
+    await callback.message.edit_text(text, reply_markup=keyboard.as_markup(), parse_mode="Markdown")
     await callback.answer()
 
 
@@ -515,7 +515,7 @@ async def handle_pagination(callback: types.CallbackQuery, state: FSMContext):
         await callback.answer("Нет данных для этой страницы")
         return
 
-    text = "📋 Список преподавателей:\n\n"
+    text = "📋 *Список преподавателей:*\n\n"
     for i, teacher in enumerate(teachers, 1):
         text += (
             f"{i}. {teacher['surname']} {teacher['name']} {teacher['middlename']}\n"
@@ -544,7 +544,7 @@ async def handle_pagination(callback: types.CallbackQuery, state: FSMContext):
     keyboard.row(InlineKeyboardButton(text="Меню", callback_data="back_to_main"))
 
     await state.update_data(current_page=page_num)
-    await callback.message.edit_text(text, reply_markup=keyboard.as_markup())
+    await callback.message.edit_text(text, reply_markup=keyboard.as_markup(), parse_mode="Markdown")
     await callback.answer()
 
 
@@ -593,14 +593,14 @@ async def handle_top_teacher_click(callback: types.CallbackQuery, state: FSMCont
 async def back_to_main(callback: types.CallbackQuery, state: FSMContext):
     await state.clear()
     welcome_text = (
-        "🚂О преподе РУТ\n\n"
-        "😤Завалили, обидели или не отпустили пораньше за кашей? Не жалей, пиши!\n"
-		"🤗Если наоборот — дай знать другим!\n\n"
+        "🚂 *О преподе РУТ*\n\n"
+        "😤 Завалили, обидели или не отпустили пораньше за кашей? Не жалей, пиши!\n"
+		"🤗 Если наоборот — дай знать другим!\n\n"
         "Выбери действие:"
     )
 
     # Редактируем текущее сообщение
-    await callback.message.edit_text(welcome_text, reply_markup=get_main_menu())
+    await callback.message.edit_text(welcome_text, reply_markup=get_main_menu(), parse_mode="Markdown")
     await callback.answer()
 
 
@@ -928,7 +928,7 @@ async def handle_request(message: types.Message, state: FSMContext):
 	# Создаем новое активное сообщение с подтверждением
 	await create_new_active_message(
 		message.chat,
-		"✅ Твой запрос отправлен!",
+		"✅ Твой запрос отправлен",
 		reply_markup=get_main_menu()
 	)
 	await state.clear()
