@@ -1,0 +1,252 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "surname": "Турцынский",
+      "name": "Марко",
+      "middlename": "Казимирович",
+      "institute": "ИУЦТ",
+      "department": "ЦТУТП",
+      "title": "Кандидат физико-математических наук",
+      "subjects": [
+        "Математический анализ",
+        "Функциональный анализ"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 2,
+      "surname": "Александрова",
+      "name": "Людмила",
+      "middlename": "Викторовна",
+      "institute": "ИУЦТ",
+      "department": "ЦТУТП",
+      "title": "Старший преподаватель",
+      "subjects": [
+        "Дискретная математика",
+        "Программирование"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "surname": "Арутюнян",
+      "name": "Елена",
+      "middlename": "Бабкеновна",
+      "institute": "ИУЦТ",
+      "department": "ЦТУТП",
+      "title": "Доцент, к.н.",
+      "subjects": [
+        "Алгебра и аналитическая геометрия",
+        "Теория вероятностей и математическая статистика",
+        "Элементы алгебры и теории чисел"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "surname": "Быков",
+      "name": "Никита",
+      "middlename": "Валерьевич",
+      "institute": "АБП",
+      "department": "Кафедра «Физика»",
+      "title": "Зав. кафедрой, доцент, д.н.",
+      "subjects": [
+        "Физика",
+        "Моделирование"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "surname": "Мухлынкина",
+      "name": "Юлия",
+      "middlename": "Владимировна",
+      "institute": "АБП",
+      "department": "Кафедра «Философия»",
+      "title": "Доцент, к.н.",
+      "subjects": [
+        "Философия"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "surname": "Базаев",
+      "name": "Алексей",
+      "middlename": "Николаевич",
+      "institute": "АБП",
+      "department": "Кафедра «История»",
+      "title": "Ассистент",
+      "subjects": [
+        "История России"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 7,
+      "surname": "Литвинова",
+      "name": "Марина",
+      "middlename": "Васильевна",
+      "institute": "АБП",
+      "department": "",
+      "title": "Старший преподаватель",
+      "subjects": [
+        "ОРГ"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 8,
+      "surname": "Базюта",
+      "name": "Ангелина",
+      "middlename": "Сергеевна",
+      "institute": "ИУЦТ",
+      "department": "ЦТУТП",
+      "title": "Ассистент",
+      "subjects": [
+        "Проектная деятельность",
+        "Численные методы",
+        "Динамические системы и модели в экологии",
+        "Методы оптимизации",
+        "Развитие прикладных методов математики",
+        "Системы компьютерной математики",
+        "Вариационное исчисление и оптимальное управление",
+        "Работа с данными"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 9,
+      "surname": "Шадрин",
+      "name": "Сергей",
+      "middlename": "Сергеевич",
+      "institute": "АБП",
+      "department": "Кафедра \"История\"",
+      "title": "Старший преподаватель",
+      "subjects": [
+        "История России"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 10,
+      "surname": "Дронова",
+      "name": "Наталья",
+      "middlename": "Александровна",
+      "institute": "АБП",
+      "department": "Кафедра \"Иностранный язык\"",
+      "title": "Старший преподаватель",
+      "subjects": [
+        "Иностранный язык"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 11,
+      "surname": "Грубин",
+      "name": "Илья",
+      "middlename": "Валентинович",
+      "institute": "АБП",
+      "department": "Кафедра \"Иностранный язык\"",
+      "title": "Доцент, к. н.",
+      "subjects": [
+        "Иностранный язык"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 12,
+      "surname": "Андреев",
+      "name": "Александр",
+      "middlename": "Иванович",
+      "institute": "АБП",
+      "department": "Кафедра \"Физика\"",
+      "title": "Доцент, к. н.",
+      "subjects": [
+        "Физика"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    },
+    {
+      "id": 13,
+      "surname": "Смирнова",
+      "name": "Галина",
+      "middlename": "Анатольевна",
+      "institute": "АБП",
+      "department": "Кафедра \"ФКиС\"",
+      "title": "Старший преподаватель",
+      "subjects": [
+        "Физическая культура"
+      ],
+      "overall_rating": {
+        "average": 0,
+        "count": 0,
+        "total": []
+      },
+      "reviews": []
+    }
+  ],
+  "next_teacher_id": 14,
+  "next_review_id": 1
+}
